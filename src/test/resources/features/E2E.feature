@@ -80,8 +80,9 @@ Feature: E2E
     Then I type "123Qwerty" into element with xpath "//*[@formcontrolname='password']"
     And I click on element with xpath "//button[@type='submit']"
     And I wait for element with xpath "//h5[contains(text(), 'Assignments')]" to be present
+    Then I wait for 2 sec
     And I click on element with xpath "//h5[contains(text(), 'Assignments')]"
-    Then I wait for 5 sec
+    Then I wait for 3 sec
     And  I wait for element with xpath "//h4[contains(text(),'List of Assignments')]" to be present
     Then I click on element with xpath "//*[contains(text(), 'Create New Assignment')]/.."
     Then I wait for 3 sec
