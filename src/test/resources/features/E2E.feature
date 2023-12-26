@@ -30,7 +30,9 @@ Feature: E2E
     Then I type "123Qwerty" into element with xpath "//*[@formcontrolname='password']"
     And I click on element with xpath "//button[@type='submit']"
     Then I wait for element with xpath "//a[@href='/#/quizzes']" to be present
+    Then I wait for 2 sec
     Then I click on element with xpath "//a[@href='/#/quizzes']"
+    Then I wait for 2 sec
     Then I wait for element with xpath "//a[@href='#/quiz-builder']" to be present
     Then I click on element with xpath "//a[@href='#/quiz-builder']"
     Then I wait for 2 sec
