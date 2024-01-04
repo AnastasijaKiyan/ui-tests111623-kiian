@@ -26,3 +26,5 @@
     And I create 5 options
     And I choose 5 as correct option
     Then I wait for 3 sec
+
+
